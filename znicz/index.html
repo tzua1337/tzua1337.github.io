@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pamięć i Przemijanie</title>
+  <style>
+    /* Reset i podstawowe style */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: black;
+      color: #e0e0e0;
+      font-family: 'Georgia', serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    /* Główny kontener */
+    .container {
+      text-align: center;
+      max-width: 600px;
+      width: 100%;
+      background: rgba(255, 255, 255, 0.03);
+      border-radius: 16px;
+      padding: 40px 20px;
+    }
+
+    /* Cytat / Napis */
+    .quote-title {
+      font-size: 1.8rem;
+      color: #f3e5ab;
+      margin-bottom: 12px;
+      letter-spacing: 1px;
+      font-weight: normal;
+    }
+
+    .quote-text {
+      font-size: 1.1rem;
+      font-style: italic;
+      color: #b3b3b3;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+
+    /* Kontener na Twój GIF */
+    .gif-container {
+      margin-top: 20px;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.3);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .gif-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .placeholder-text {
+      color: #888;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1 class="quote-title">Pamięć nie umiera</h1>
+    <p class="quote-text">
+      „Śpieszymy się kochać ludzi, tak szybko odchodzą...<br>
+      Zostaje po nich cisza i światło wspomnień.”
+    </p>
+
+    <!-- TUTAJ WSTAW SWÓJ GIF -->
+    <div class="gif-container">
+        <img src="gif2.gif" alt="Znicz">
+    </div>
+  </div>
+
+</body>
+</html>
